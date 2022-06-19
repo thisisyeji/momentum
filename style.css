@@ -244,10 +244,10 @@ h2 span {
 
 @keyframes filter {
   to {
-    transform: translateX(-1000px);
+    transform: translateX(-1300px);
   }
   from {
-    transform: translateX(500px);
+    transform: translateX(300px);
   }
 }
 
