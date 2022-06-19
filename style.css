@@ -240,7 +240,7 @@ h2 span {
 
 @keyframes filter {
   to {
-    transform: translateX(-1200px);
+    transform: translateX(-1000px);
   }
   from {
     transform: translateX(500px);
