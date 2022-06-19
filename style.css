@@ -34,6 +34,8 @@ main {
 
 .start {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -348,13 +350,17 @@ h2 span {
     background: url(./imgs/nasa-bg.jpg) cover repeat;
   }
 
+  .start {
+    background: url(./imgs/nasa-bgStart.jpg) cover repeat;
+  }
+
   .login-form .input {
-    width: 330px;
+    width: 320px;
     height: 50px;
   }
   .login-form .button {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
   .main {
@@ -367,10 +373,10 @@ h2 span {
   }
 
   #quote {
-    width: 400px;
+    width: 380px;
   }
   .todo {
-    width: 400px;
+    width: 380px;
     margin-bottom: 20px;
   }
 }
