@@ -1,4 +1,4 @@
-# Shopping list
+# Momentum
 
 This is a toy project using HTML, CSS and JavaScript.
 
@@ -16,8 +16,6 @@ This is a toy project using HTML, CSS and JavaScript.
 ## Overview
 
 ### Function
-
-Users should be able to:
 
 - Clock
 - To do list
