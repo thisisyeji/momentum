@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/63a7468b81.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/greeting.js" defer></script>
+    <script src="/js/clock.js" defer></script>
+    <script src="/js/background.js" defer></script>
+    <script src="/js/quotes.js" defer></script>
+    <script src="/js/weather.js" defer></script>
+    <script src="/js/todo.js" defer></script>
+    <title>Momentum</title>
+  </head>
+
+  <body>
+    <div id="start" class="start hidden">
+      <form id="login-form" class="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+          class="input"
+        />
+        <button type="submit" class="button">
+          <i class="fa-solid fa-power-off"></i>
+        </button>
+      </form>
+    </div>
+
+    <main class="hidden main">
+      <section class="section__left">
+        <div id="hubble" class="hubble"></div>
+        <span class="info">Look at the view <br />through a telescope!</span>
+        <div id="counter" class="counter">
+          <span class="counter__title">2023 New Year's Day</span>
+          <span></span>
+        </div>
+        <div id="weather" class="weather">
+          <span class="weather__title">Today's weather</span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+
+      <section class="section__right">
+        <div class="header">
+          <div>
+            <i class="fa-solid fa-earth-americas"></i>
+            <h1 id="clock">00:00:00</h1>
+          </div>
+          <h2 id="greeting" class="greeting"></h2>
+        </div>
+        <div class>
+          <div id="quote">
+            <div></div>
+          </div>
+          <div class="todo">
+            <div class="todo__header">
+              <span class="todo__title">To do list</span>
+              <form action="" id="todo-form">
+                <input
+                  type="text"
+                  name=""
+                  id="todo-input"
+                  placeholder="Write a To Do and Press Enter"
+                  required
+                />
+              </form>
+            </div>
+            <ul id="todo-list"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
