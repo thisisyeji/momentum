@@ -347,11 +347,11 @@ h2 span {
 
   body {
     height: auto;
-    background: url(./imgs/nasa-bg.jpg) cover repeat;
+    background: url(./imgs/nasa-bg.jpg) cover/center repeat;
   }
 
   .start {
-    background: url(./imgs/nasa-bgStart.jpg) cover repeat;
+    background: url(./imgs/nasa-bgStart.jpg) cover/center repeat;
   }
 
   .login-form .input {
