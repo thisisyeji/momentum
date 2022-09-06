@@ -29,7 +29,7 @@ This is a toy project using HTML, CSS and JavaScript.
 
 ### Links
 
-- Live Site URL: [https://yjkim0109.github.io/momentum/](https://yjkim0109.github.io/momentum/)
+- Live Site URL: [https://thisisyeji.github.io/momentum/](https://yjkim0109.github.io/momentum/)
 
 ## My process
 
